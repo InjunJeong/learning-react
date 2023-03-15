@@ -10,6 +10,8 @@ const Counter = () => {
             </p>
             <button onClick={() => setValue(value + 1)}>+ 1</button>
             <button onClick={() => setValue(value - 1)}>- 1</button>
+            <button onClick={() => setValue(value + 2)}>+ 2</button>
+            <button onClick={() => setValue(value - 2)}>- 2</button>
         </div>
     );
 }
