@@ -8,8 +8,10 @@ const Counter = () => {
             <p>
                 현재 카운터 값은 <b>{value}</b>입니다.
             </p>
-            <butto onClick={() => setValue(value + 1)}>+ 1</butto>
-            <butto onClick={() => setValue(value - 1)}>- 1</butto>
+            <button onClick={() => setValue(value + 1)}>+ 1</button>
+            <button onClick={() => setValue(value - 1)}>- 1</button>
+            <button onClick={() => setValue(value + 2)}>+ 2</button>
+            <button onClick={() => setValue(value - 2)}>- 2</button>
         </div>
     );
 }
